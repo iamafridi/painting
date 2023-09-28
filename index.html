@@ -17,9 +17,15 @@
 </head>
 
 <body>
+    <header>
+        <div class="navbar bg-base-100 text-center justify-center">
+            <a class=" text-4xl font-bold uppercase font-serif text-amber-700">Painting</a>
+          </div>
+    </header>
+
     <div class="wrapper">
         <nav>
-            <div class="navbar">
+            <div class="navbar bg-slate-400 justify-center items-center ">
                 <input type="checkbox" name="" id="check">
                 <label for="check" class="checkbtn">
                     <img src="./images/bars-solid.svg" width="30" height="30" alt="">
@@ -29,10 +35,10 @@
 
 
 
-                <ul>
+                <ul class="p-2 gap-3 ">
                     <li>
-                        <label for="pen" id="penl">&nbsp;Pen</label>
-                        <select id="pen" onchange=" s_pen(value) ">
+                        <label for="pen" id="penl">Pen</label>
+                        <select class="ml-4" id="pen" onchange=" s_pen(value) ">
                             <option selected class="opt" value="1"> pen 1</option>
                             <option class="opt" value="2"> pen 2</option>
                             <option class="opt" value="3"> pen 3</option>
@@ -45,8 +51,8 @@
 
                     </li>
                     <li>
-                        <label for="color" id="colorl">&nbsp;Color</label>
-                        <select id="color" onchange=" s_color(value) ">
+                        <label for="color" id="colorl">Color</label>
+                        <select class="ml-4" id="color" onchange=" s_color(value) ">
                             <option class="opt" value="1">black </option>
                             <option class="opt" value="2">red</option>
                             <option class="opt" value="3">blue</option>
@@ -58,8 +64,8 @@
                         </select>
                     </li>
                     <li>
-                        <label for="Bcolor" id="b_color">&nbsp;b_Color</label>
-                        <select id="Bcolor" onchange="b_color(value) ">
+                        <label for="Bcolor" id="b_color">Background</label>
+                        <select class="ml-4" id="Bcolor" onchange="b_color(value) ">
                             <option selected class="opt" value="0"> Transparent</option>
                             <option class="opt" value="1">white </option>
                             <option class="opt" value="2">red</option>
@@ -72,9 +78,9 @@
                             <option class="opt" value="9">black </option>
                         </select>
                     </li>
-                    <li><button class="btn" id="Eraser" onclick="Er()">&nbsp;Eraser</button></li>
-                    <li><button class="btn" id="Eraser" onclick="Clear_all()"> &nbsp;Clear all</button></li>
-                    <li><button class="btn " onclick="toImg()">Download</button></li>
+                    <li><button class="btn btn-ghost" id="Eraser" onclick="Er()"><span>Eraser</span> </button></li>
+                    <li><button class="btn btn-ghost" id="Eraser" onclick="Clear_all()"> Clear all</button></li>
+                    <li><button class="btn btn-error rounded-lg" onclick="toImg()">Download</button></li>
                 </ul>
             </div>
             
