@@ -7,7 +7,7 @@ Welcome to PaintingCanvas, a user-friendly web application for creating digital 
 1. **Getting Started:**
    - Clone the repository to your computer using this command:
      ```
-     git clone https://github.com/your-username/artistic-canvas.git
+     git clone https://github.com/your-username/paintingcanvas.git
      ```
 
    - Open the `index.html` file in your web browser to launch the application.
