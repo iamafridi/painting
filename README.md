@@ -53,7 +53,7 @@ This project is licensed under the MIT License.
 
 We extend our gratitude to all contributors who have helped improve this project.
 
-Thank you for choosing ArtisticCanvas for your creative endeavors.
+Thank you for choosing PaintingCanvas for your creative endeavors.
 
 ---
 
